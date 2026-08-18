@@ -71,28 +71,75 @@ Kaggle 원본 데이터와 AI Hub에서 제공하는 **경구약제조합 5000�
 
 #### Labeling Data
 
-다음 라벨링 데이터를 사용함.
+#### Training Data
 
-```text
-Training
-└── 라벨링데이터
-    └── 경구약제조합 5000종
-        └── TL_2_조합.zip
-```
-
-#### Source Data
-
-다음 원천 데이터를 사용함.
+AI Hub 경구약제조합 5000종 데이터 중 **`TS_1_조합.zip ~ TS_8_조합.zip`에서 `TS_2_조합.zip`을 제외한 원천데이터**를 사용함.
 
 ```text
 Training
 └── 원천데이터
     └── 경구약제조합 5000종
-        └── TS_2_조합.zip을 제외한 경구약제 조합 데이터
+        ├── TS_1_조합.zip
+        ├── TS_3_조합.zip
+        ├── TS_4_조합.zip
+        ├── TS_5_조합.zip
+        ├── TS_6_조합.zip
+        ├── TS_7_조합.zip
+        └── TS_8_조합.zip
 ```
 
-`TS_2_조합.zip`은 학습 데이터에서 제외하고 나머지 경구약제 조합 데이터를 활용함.
+라벨 데이터 역시 동일하게 **`TL_1_조합.zip ~ TL_8_조합.zip`에서 `TL_2_조합.zip`을 제외한 데이터**를 사용함.
 
+```text
+Training
+└── 라벨링데이터
+    └── 경구약제조합 5000종
+        ├── TL_1_조합.zip
+        ├── TL_3_조합.zip
+        ├── TL_4_조합.zip
+        ├── TL_5_조합.zip
+        ├── TL_6_조합.zip
+        ├── TL_7_조합.zip
+        └── TL_8_조합.zip
+```
+
+> `TS_2_조합.zip` 및 `TL_2_조합.zip`은 Training 데이터에서 제외함.
+
+#### Validation Data
+
+Validation은 **`TS_1_조합` 원천데이터와 `TL_1_조합` 라벨데이터 1세트만 사용함.**
+
+```text
+Validation
+├── 원천데이터
+│   └── TS_1_조합
+│
+└── 라벨링데이터
+    └── TL_1_조합
+```
+
+#### Kaggle Dataset
+
+Kaggle에서 제공된 데이터셋도 함께 사용함.
+
+```text
+Kaggle
+└── Kaggle Dataset
+```
+
+### 데이터 구성 요약
+
+* **Training**
+
+  * `TS_1 ~ TS_8` 원천데이터 중 `TS_2` 제외
+  * `TL_1 ~ TL_8` 라벨데이터 중 `TL_2` 제외
+* **Validation**
+
+  * `TS_1` 원천데이터 + `TL_1` 라벨데이터 1세트
+* **Kaggle**
+
+  * Kaggle 제공 데이터셋 사용
+* `TS_2_조합.zip`, `TL_2_조합.zip`은 Training에서 제외함.
 ---
 
 ## 🎯 최종 모델 선정 방식
