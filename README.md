@@ -1,4 +1,4 @@
-# 💊 [AI13] 경구약제 이미지 객체 검출(Object Detection) 프로젝트
+# 💊 [AI13] Pill So Good 프로젝트(part2_1팀)
 
 경구약제 이미지를 대상으로 **Object Detection 모델을 구축하고 Kaggle 대회 데이터에 대한 성능을 평가한 프로젝트**
 
