@@ -312,31 +312,15 @@ Kaggle 기본 제공 데이터셋만 활용할 경우 Class가 56종, 사진이 
 따라서 **mAP뿐만 아니라 F2 Score 관점에서 Recall을 높이고, Test에 등장할 가능성이 있는 Class 종류를 최대한 확보하는 방향으로 전략을 수립함.**
 
 **수집의 목표를 "데이터 양"이 아닌 "Class 종류 수"로 설정함.**
-### mAP (Mean Average Precision)
+<br>
+### 평가 지표
 
-객체 탐지 모델의 **전체적인 검출 성능을 평가하는 지표**이다.
-
-- **Precision**: 검출한 객체 중 실제 정답의 비율
-- **Recall**: 실제 객체 중 모델이 찾아낸 비율
-- **IoU**: 예측 Box와 실제 Box의 겹치는 정도
-- **mAP**: 여러 IoU 기준에서의 Precision-Recall 성능을 종합한 값
-
-**mAP@0.75:0.95**는 IoU 0.75~0.95 구간의 여러 기준에서 계산한 AP의 평균이다.
-
-### F2 Score
-
-**Precision보다 Recall을 더 중요하게 평가하는 지표**이다.
-
-$$
-F2 = \frac{5 \times Precision \times Recall}{4 \times Precision + Recall}
-$$
-
-즉, **실제 객체를 얼마나 놓치지 않았는지(Recall)**를 중점적으로 평가한다.
-
-| 지표 | 핵심 의미 |
+| 지표 | 설명 |
 |---|---|
-| **mAP** | 전체적인 객체 탐지 성능 |
-| **F2 Score** | 객체를 놓치지 않는 성능(Recall) |
+| **mAP@0.75:0.95** | IoU 0.75~0.95에서 **위치·분류 성능을 종합 평가** |
+| **F2 Score** | Precision보다 **Recall(놓치지 않는 성능)**에 가중치를 둔 지표 |
+
+> **mAP = 전체적인 검출 성능 / F2 = 놓치는 객체를 줄이는 성능**
 
 
 ### AI Hub에서 단계적으로 확장
