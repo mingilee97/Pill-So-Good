@@ -32,7 +32,7 @@ Kaggle 원본 데이터와 AI Hub 경구약제 데이터를 활용해 팀원별�
 | 팀원 1 | 김경원 |
 | 팀원 2 | 문혜원 |
 | 팀원 3 | 서정철 / [협업일지](https://drive.google.com/drive/folders/1qGKBqIdq9X7ssEVTnzLOGCkrUHmrwtAZ) |
-| 팀원 4 | 나상훈 |
+| 팀원 4 | 나상훈 | [협업일지](https://early-enquiry-09b.notion.site/3b277432bb6880848366dfa451fb83a1?v=3b277432bb6880aab758000cd651bae2&source=copy_link)
 | 팀원 5 | 고소현 |                                                                                      |
 
 
