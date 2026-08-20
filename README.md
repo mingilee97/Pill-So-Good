@@ -24,6 +24,8 @@ Kaggle 원본 데이터와 AI Hub 경구약제 데이터를 활용해 팀원별�
 
 ---
 
+## 프로젝트 총괄 보고서(파일 목록 확인)
+
 ## 🧑‍🤝‍🧑 멤버 구성
 
 |  구분  | 이름  | 협업일지                                                                                                                               |
@@ -33,9 +35,9 @@ Kaggle 원본 데이터와 AI Hub 경구약제 데이터를 활용해 팀원별�
 | 팀원 2 | 문혜원 | -                                                                                                                                  |
 | 팀원 3 | 서정철 | [협업일지](https://drive.google.com/drive/folders/1qGKBqIdq9X7ssEVTnzLOGCkrUHmrwtAZ)                                                   |
 | 팀원 4 | 나상훈 | [협업일지](https://early-enquiry-09b.notion.site/3b277432bb6880848366dfa451fb83a1?v=3b277432bb6880aab758000cd651bae2&source=copy_link) |
-| 팀원 5 | 고소현 | -                                                                                                                                  |
-                                                                                 |
+| 팀원 5 | 고소현 | -    |
 
+                                                                 
 
 ### 1팀 자체 스프레드 시트 협업일지
 https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit?gid=327834733#gid=327834733
