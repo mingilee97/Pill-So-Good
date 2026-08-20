@@ -26,14 +26,15 @@ Kaggle 원본 데이터와 AI Hub 경구약제 데이터를 활용해 팀원별�
 
 ## 🧑‍🤝‍🧑 멤버 구성
 
-| 구분 | 이름 |
-|---|---|
-| 팀장 | 이민기 / [협업일지](https://app.notion.com/p/Daily-3b2a6e54808180f994d7e2d2d1dafe4e) |
-| 팀원 1 | 김경원 |
-| 팀원 2 | 문혜원 |
-| 팀원 3 | 서정철 / [협업일지](https://drive.google.com/drive/folders/1qGKBqIdq9X7ssEVTnzLOGCkrUHmrwtAZ) |
-| 팀원 4 | 나상훈 | [협업일지](https://early-enquiry-09b.notion.site/3b277432bb6880848366dfa451fb83a1?v=3b277432bb6880aab758000cd651bae2&source=copy_link)
-| 팀원 5 | 고소현 |                                                                                      |
+|  구분  | 이름  | 협업일지                                                                                                                               |
+| :--: | --- | ---------------------------------------------------------------------------------------------------------------------------------- |
+|  팀장  | 이민기 | [협업일지](https://app.notion.com/p/Daily-3b2a6e54808180f994d7e2d2d1dafe4e)                                                            |
+| 팀원 1 | 김경원 | -                                                                                                                                  |
+| 팀원 2 | 문혜원 | -                                                                                                                                  |
+| 팀원 3 | 서정철 | [협업일지](https://drive.google.com/drive/folders/1qGKBqIdq9X7ssEVTnzLOGCkrUHmrwtAZ)                                                   |
+| 팀원 4 | 나상훈 | [협업일지](https://early-enquiry-09b.notion.site/3b277432bb6880848366dfa451fb83a1?v=3b277432bb6880aab758000cd651bae2&source=copy_link) |
+| 팀원 5 | 고소현 | -                                                                                                                                  |
+                                                                                 |
 
 
 ### 1팀 자체 스프레드 시트 협업일지
