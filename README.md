@@ -36,6 +36,10 @@ Kaggle 원본 데이터와 AI Hub 경구약제 데이터를 활용해 팀원별�
 | 팀원 5 | 고소현 |                                                                                      |
 
 
+# 1팀 자체 스프레드 시트 협업일지
+https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit?gid=327834733#gid=327834733
+
+
 ### 담당 역할
 
 * **이민기** - 팀장 / Github 작성 및 sub
